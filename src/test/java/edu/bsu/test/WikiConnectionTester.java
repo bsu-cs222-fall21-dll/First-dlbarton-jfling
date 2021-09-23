@@ -50,4 +50,3 @@ public class WikiConnectionTester {
             return xpath.compile(expression);
         }
     }
-}
