@@ -4,7 +4,7 @@ package edu.bsu.main;
 
 import javax.swing.*;
 
-public class RetrieveWikiArticle extends UserInput
+public class RetrieveWikiArticle
 {
 
     public String formatUrl(String userUrl)
@@ -13,5 +13,10 @@ public class RetrieveWikiArticle extends UserInput
         String backUrl =  "&redirects=1&callback=&rvprop=timestamp%7Cuser&rvlimit=30";
         return frontUrl + userUrl + backUrl;
 
+    }
+
+    public String getUserUrl()
+    {
+        return JOptionPane.showInputDialog("Enter Wikipedia title: ");
     }
 }
