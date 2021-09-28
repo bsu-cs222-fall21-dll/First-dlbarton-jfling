@@ -1,4 +1,4 @@
-package edu.bsu.main;
+package edu.bsu.Model;
 
 import java.io.IOException;
 import java.io.InputStream;

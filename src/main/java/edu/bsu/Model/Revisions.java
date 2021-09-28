@@ -1,4 +1,4 @@
-package edu.bsu.main;
+package edu.bsu.Model;
 
 public class Revisions
 {

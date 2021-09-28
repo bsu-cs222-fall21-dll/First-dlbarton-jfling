@@ -1,4 +1,4 @@
-package edu.bsu.main;
+package edu.bsu.View;
 
 import java.util.Scanner;
 

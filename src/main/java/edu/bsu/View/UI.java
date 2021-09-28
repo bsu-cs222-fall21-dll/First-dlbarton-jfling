@@ -1,4 +1,4 @@
-package edu.bsu.main;
+package edu.bsu.View;
 
 public class UI {
     public String WikiUserInterface(){
